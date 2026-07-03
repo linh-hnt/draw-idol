@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e9f6b143a9679247be11047cde284c9, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: 
+  _levels:
+  - id: 0
+    levelName: Rumi
+    iconSprite: {fileID: 21300000, guid: 4ac51806391867e40a667c7c9b815400, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1870376606457465, guid: 7f3cc4f338122b94094a1bef4a2c028f, type: 3}
+  - id: 1
+    levelName: Zoey
+    iconSprite: {fileID: 21300000, guid: 30e1097e5c860f24a9d0ebed949202d8, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1646674730610060, guid: 2a8ca0a00211f654380c383977c72f24, type: 3}
+  - id: 2
+    levelName: Mira
+    iconSprite: {fileID: 21300000, guid: b9b2b7926df3d0849b230d7ed94ab89c, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1666259586500931, guid: 2dc181486808f2043bc136c83640f085, type: 3}
+  - id: 3
+    levelName: Rumi
+    iconSprite: {fileID: 21300000, guid: 202606badf4bff94d898cf1e102f04f1, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1649640888887975, guid: d38a28aad0a89ba4ba529e62b4d7c49f, type: 3}
+  - id: 4
+    levelName: Zoey
+    iconSprite: {fileID: 21300000, guid: 0f5b9708bea7e4c4ea49b7b6f10f4c12, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1540858626679490, guid: 4cd90a4033152f040bb08f05d48d7cfe, type: 3}
+  - id: 5
+    levelName: Mira
+    iconSprite: {fileID: 21300000, guid: b55e070e1949cac4d931691a574d067e, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1343804388418944, guid: 1f94b2e2a191554428acc0c3a0fc09db, type: 3}
+  - id: 6
+    levelName: Rumi
+    iconSprite: {fileID: 21300000, guid: b28278a207a573f429fdb14eaf5f79eb, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1519106240743326, guid: 3db153d2ca8626846ac18d1977ae1533, type: 3}
+  - id: 7
+    levelName: Zoey
+    iconSprite: {fileID: 21300000, guid: 87efac3540b67794fb0dba64d8585808, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1493388845899014, guid: 66681223a2e7e674fbc807c043ce74e4, type: 3}
+  - id: 8
+    levelName: Mira
+    iconSprite: {fileID: 21300000, guid: 81c7ee62831fdaa40b8bda14ad31a667, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1825289012676823, guid: 53a252277f9c23d4399573d084a4acfe, type: 3}
+  - id: 9
+    levelName: Jinu
+    iconSprite: {fileID: 21300000, guid: de94f92801525c241b14bf15a9d2e3b7, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1980684228716595, guid: 62ac5b0caabae524ca8916a1654ea43e, type: 3}
+  - id: 10
+    levelName: Abby
+    iconSprite: {fileID: 21300000, guid: 967a86c2bcb31d240bcbf9d5020817e9, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1110757726887497, guid: 2a8ece08e8f09fe4ab8c9434c3e04a97, type: 3}
+  - id: 11
+    levelName: Baby
+    iconSprite: {fileID: 21300000, guid: 79c390539685e294bb6e052417e415c4, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1195425593802695, guid: 0d006fecd1508bf419bea5cf622c8381, type: 3}
+  - id: 12
+    levelName: Mystery
+    iconSprite: {fileID: 21300000, guid: a759ddbe65697f448b26dba3f0cbc763, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1266766560419860, guid: 4211d8fd8f599054192daa2779c4bd20, type: 3}
+  - id: 13
+    levelName: Romance
+    iconSprite: {fileID: 21300000, guid: 08952458aaf74a54baea8dac5dbaf545, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1883233417076936, guid: aa441e0e01ef60d41ae7d937658ec17b, type: 3}
+  - id: 14
+    levelName: Rumi
+    iconSprite: {fileID: 21300000, guid: 3c61ee8dd9ea7b343a56c1da2622b49a, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1931468245676296, guid: b5591e12c06fa6341b7c5c0aade8c232, type: 3}
+  - id: 15
+    levelName: Zoey
+    iconSprite: {fileID: 21300000, guid: 3947757fc026f8649ade60827afeeb39, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1431896413606517, guid: ea7c9c275e8775746a997ecbc2070bf6, type: 3}
+  - id: 16
+    levelName: Mira
+    iconSprite: {fileID: 21300000, guid: a6b4de6e0f31db9459dd1551186dc68a, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1016148306822124, guid: cca8378cdbce6e24b8698e225c74dd96, type: 3}
+  - id: 17
+    levelName: Jinu
+    iconSprite: {fileID: 21300000, guid: 066bcafdeb8685b4783383cc70b1b8e8, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1958343756591672, guid: ccf9fe9ebb2e89a428e9a5e97acea8b8, type: 3}
+  - id: 18
+    levelName: Abby
+    iconSprite: {fileID: 21300000, guid: eb74089815c91c14ba2ad7583f14c133, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1069367407425187, guid: 64e76ae69beefda4d954f52f94c426c9, type: 3}
+  - id: 19
+    levelName: Baby
+    iconSprite: {fileID: 21300000, guid: a3eaf1385063bbf4ebd67d563eef7432, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1286239616581716, guid: c993941d4984cda4bb5fce82053eaf28, type: 3}
+  - id: 20
+    levelName: Mystery
+    iconSprite: {fileID: 21300000, guid: 26af98fad4939b142b8eeb38aea9109b, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1075428384937271, guid: 65687830e4c43374c99c8f4246e68344, type: 3}
+  - id: 21
+    levelName: Romance
+    iconSprite: {fileID: 21300000, guid: 0de920de8a9d38c4ea29f0f7a67554df, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1216116247584352, guid: 520ee58433f424a4ead628e51494f3e0, type: 3}
+  - id: 22
+    levelName: Rumi Jinu
+    iconSprite: {fileID: 21300000, guid: 21f12956e82c56a4a957a3db8bea455b, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1636572278316270, guid: 4b6297f7696553840b2694a8f74104cc, type: 3}
+  - id: 23
+    levelName: Zoey Baby
+    iconSprite: {fileID: 21300000, guid: 8f5bb94cb9110714fa768dd5cdc7c7c3, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1127657730471062, guid: d6608724fd66a2442a0e6cf1e27b181b, type: 3}
+  - id: 24
+    levelName: Mira Abby
+    iconSprite: {fileID: 21300000, guid: 6a1a68cc04e2f3c4fa17c1e4c9d43545, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1627638352955487, guid: d3fe8519f8d96d24e828f46d167a17a9, type: 3}
+  - id: 25
+    levelName: Huntrix
+    iconSprite: {fileID: 21300000, guid: a307404b31f013d4dbd27dcfc097ff17, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1367907001554135, guid: e802cdd2068e4914789067d9bd90c41b, type: 3}
+  - id: 26
+    levelName: SajaBoys
+    iconSprite: {fileID: 21300000, guid: 511fb78caff3a1347b818cffdfb287fd, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1303917946169034, guid: 5082dd9b28c788c4391af1e27a589bf0, type: 3}
+  - id: 27
+    levelName: Boddy
+    iconSprite: {fileID: 21300000, guid: 31d8d6fd9a920874fa19c1ef42f5d3c8, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1870652390853616, guid: 744a4793f2ebf0546bfc867ab133ce22, type: 3}
+  - id: 28
+    levelName: Karkurkur
+    iconSprite: {fileID: 21300000, guid: 86beddedb4f8805459d3434cfe263909, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1618137560911597, guid: 5634f747975f6f142a330d27224d86d0, type: 3}
+  - id: 29
+    levelName: Tung Tung
+    iconSprite: {fileID: 21300000, guid: 97fa2345edee1a342b98a30c4d85ace1, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1039154623398962, guid: 327e442ade44f4a41ac2eacc10987c62, type: 3}
+  - id: 30
+    levelName: Tralalero
+    iconSprite: {fileID: 21300000, guid: 4a114998f5d33c64899f5fa3dfb476ed, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1356248869808389, guid: 7b4a19058b5f941409f6f550c1165258, type: 3}
+  - id: 31
+    levelName: Pakrahmatmamat
+    iconSprite: {fileID: 21300000, guid: 023d169cd2097d5479476a03dec12781, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1333848782067487, guid: 68c113bbed2a21646bdefe5daee2ba48, type: 3}
+  - id: 32
+    levelName: Te Te Te Sahur
+    iconSprite: {fileID: 21300000, guid: b8b4ee52ec2183941bd169a5c9e5f31e, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1642943329025189, guid: 6390b43fa6294e54988ea81523c4caf4, type: 3}
+  - id: 33
+    levelName: Brr Brr
+    iconSprite: {fileID: 21300000, guid: 408c0705ad30fa84cb89d12d15662ee8, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1815950426754517, guid: 293d3ef37178eca48ba45b0befbb97f9, type: 3}
+  - id: 34
+    levelName: Ti Ti Ti Sahur
+    iconSprite: {fileID: 21300000, guid: a9c4c42728afc0047852ecd137a84f7e, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1340590037340668, guid: 4f1caa6e4552f894fa3337d2b32c489b, type: 3}
+  - id: 35
+    levelName: Bombardiro
+    iconSprite: {fileID: 21300000, guid: 4d17a710cc161694792901490d3bc771, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1046741914201681, guid: 68776f80005f3da46964860a9065630d, type: 3}
+  - id: 36
+    levelName: Chicleteira
+    iconSprite: {fileID: 21300000, guid: 1ec65e2766688c341826b80d6359595e, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1096198279086202, guid: fad3a54a22a401447b7a04744cae2e4d, type: 3}
+  - id: 37
+    levelName: Lirili Larila
+    iconSprite: {fileID: 21300000, guid: 901303b9230ca3b4dbcc2ec5b3062c6a, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1451026438242626, guid: 1c92f5e377616f545af085815f292f37, type: 3}
+  - id: 38
+    levelName: Ganganzelli
+    iconSprite: {fileID: 21300000, guid: aa9e29012aeeb8a4e888a59bd258ffa1, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1136554246265292, guid: 928a8d1aa688270449d2aa7da5bdb212, type: 3}
+  - id: 39
+    levelName: Shimpanzinni
+    iconSprite: {fileID: 21300000, guid: c8b1c4424adba9b4c9d5eee95cd6fdf2, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1389751202618155, guid: 8acac22e56334b34fb5e4e904bc156dc, type: 3}
+  - id: 40
+    levelName: Hati Hati
+    iconSprite: {fileID: 21300000, guid: 1af959c2566918b41a801b23ed058e62, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1201482681432810, guid: 00c8a9057e1457d4f832c08a09ca8a64, type: 3}
+  - id: 41
+    levelName: Trulimero
+    iconSprite: {fileID: 21300000, guid: 1330e1720fb40ac49b21ee5eb1b2a31c, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1388492168619740, guid: dd6cbde64b77f644182b46d69852dab3, type: 3}
+  - id: 42
+    levelName: Anomali
+    iconSprite: {fileID: 21300000, guid: c53213aac9e45b940bfeed722b668398, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1385133654468120, guid: cc1189a02220ae7428fa5e6df0d19887, type: 3}
+  - id: 43
+    levelName: Ketupat Kepat
+    iconSprite: {fileID: 21300000, guid: 953d98fb68d723145a5e139c5f59d780, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1551085707588576, guid: 563a4262319b48144ab9138a11e5ebe7, type: 3}
+  - id: 44
+    levelName: Bombini
+    iconSprite: {fileID: 21300000, guid: a057e6eff0969b5479c3abd601634e82, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1489751106955644, guid: 6ade1596dff9df4448293ace1f032125, type: 3}
+  - id: 45
+    levelName: Night Deer
+    iconSprite: {fileID: 21300000, guid: 48738fba1b2ede449b8b4b197c594d5f, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1143761063691122, guid: 1655fd2579d0cc94eb8c52bfb7c8178e, type: 3}
+  - id: 46
+    levelName: Balerinan
+    iconSprite: {fileID: 21300000, guid: ca2320d65ca45184d9d3a6ef62ae14b6, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1584250104640790, guid: 90b9f3330613f7247972881142aee988, type: 3}
+  - id: 47
+    levelName: Pot Hotspot
+    iconSprite: {fileID: 21300000, guid: b72631e8ce70d1b47826c8eafa21a01d, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1909671714345849, guid: 3a91cc014992c6746bbb1b67573868fc, type: 3}
+  - id: 48
+    levelName: Bobrito
+    iconSprite: {fileID: 21300000, guid: 02b5454c7927aa643b9bef6690afd28f, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1597420772301290, guid: 698e8935658db4c4b9effe31a664a50a, type: 3}
+  - id: 49
+    levelName: Frulli
+    iconSprite: {fileID: 21300000, guid: 26be1cfa8744b384a9ef05f2d81c6582, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1058628139562503, guid: 490820ca6144ac34dbda7fcb5e8e4965, type: 3}
+  - id: 50
+    levelName: Bobbrinni
+    iconSprite: {fileID: 21300000, guid: 7629a4b30c0396c4a8b9d6be5ec57c07, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1415684592764552, guid: c63ea99ad4175094e9c9506b827bce8d, type: 3}
+  - id: 51
+    levelName: Orangutini
+    iconSprite: {fileID: 21300000, guid: cd6d660e33285d04a81e199755d62cd5, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1936885533524141, guid: 24262021d339f6043b65bf96786107af, type: 3}
+  - id: 52
+    levelName: Cappuccino
+    iconSprite: {fileID: 21300000, guid: 617fc2c30f6e04a47a139375c7fb7959, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1082806808301150, guid: d5d6d48b66d447b41ab92c84f1b0df5c, type: 3}
+  - id: 53
+    levelName: Tralalero Baby
+    iconSprite: {fileID: 21300000, guid: 4c8b4411e1f5c1840ac43e11d165d03f, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1240907501023477, guid: 677b8e53e4e256b4790834a520a079c9, type: 3}
+  - id: 54
+    levelName: Udin Din
+    iconSprite: {fileID: 21300000, guid: a651c15523974024f82a7b84d582b43e, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1406276483116164, guid: d58607e4c16e97348b4e79bfe3349a04, type: 3}
+  - id: 55
+    levelName: Trippi Troppi
+    iconSprite: {fileID: 21300000, guid: d5fd36205b671b84f89f189d0a3aefbb, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1534960238666629, guid: e5dca8cb3adac374e877189c5dddae1c, type: 3}
+  - id: 56
+    levelName: Balerinna Baby
+    iconSprite: {fileID: 21300000, guid: 79635e486e7c22941aa3b3480ec3ba24, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1140656721208098, guid: 7b3845e30e7ac7848b68e249637a9c78, type: 3}
+  - id: 57
+    levelName: Boneca
+    iconSprite: {fileID: 21300000, guid: dcaebfc1a05f6454aa7af97ab41048cf, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1104873771639509, guid: 48d0af2abae801244979102a0c0ac067, type: 3}
+  - id: 58
+    levelName: Crocodildo
+    iconSprite: {fileID: 21300000, guid: cb31b977fda12ae46a4b6090f96391e2, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1329853363902023, guid: 72e530c683452e745abe2253a7a26602, type: 3}
+  - id: 59
+    levelName: Sweet Whisper
+    iconSprite: {fileID: 21300000, guid: c2bd8d374fba24a499c93ef93b1d6ba8, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1829000426516304, guid: 3db2ce632b35fff4aaa5f941a4c75e2d, type: 3}
+  - id: 60
+    levelName: Warm Hug
+    iconSprite: {fileID: 21300000, guid: 4fad6b76757db0541a24faa72b05649c, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1699677522353815, guid: 8e1b0a2be50c5f248b86c9cb9eb12fbd, type: 3}
+  - id: 61
+    levelName: Valentine Gift
+    iconSprite: {fileID: 21300000, guid: 6a326614c90705d4fb3bda30b838d294, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1679772940869813, guid: 3da7444fc78285e4fb8efe31a7aab5c5, type: 3}
+  - id: 62
+    levelName: Side by Side
+    iconSprite: {fileID: 21300000, guid: fd7f28c593cf83348b135a99d96e6141, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1053377641814566, guid: c55530322c94cc941875a5182e0f9009, type: 3}
+  - id: 63
+    levelName: Dance of Love
+    iconSprite: {fileID: 21300000, guid: ab2fc5853b224fa4eb81ea1d02119c72, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1142589608922328, guid: 022589347a6ef0048b531df5d7ba0fd9, type: 3}
+  - id: 64
+    levelName: Chill Together
+    iconSprite: {fileID: 21300000, guid: f5c10bd7fc2a1704c8099e5bbc62262d, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1219269959463024, guid: 312e36ef25f63cb4fa3f5e9261454b25, type: 3}
+  - id: 65
+    levelName: Sing Together
+    iconSprite: {fileID: 21300000, guid: c3f8fb9cf6443ad4ea17edf799dbe5c9, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1837607691685508, guid: 70962566ab5cdce498f74f11686e3e11, type: 3}
+  - id: 66
+    levelName: Hand in hand
+    iconSprite: {fileID: 21300000, guid: 3e3a2505ae1be7f4ab2a93c0a0aaa5f3, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1701634758275002, guid: 4d3ede08e665191408d0d696223bd980, type: 3}
+  - id: 67
+    levelName: Love Umbrella
+    iconSprite: {fileID: 21300000, guid: 5844d002c6ba81c4d8cdd8b56c265f1e, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1010947068799482, guid: 9ab15743a7121074e8231dff50af1a03, type: 3}
+  - id: 68
+    levelName: Hug
+    iconSprite: {fileID: 21300000, guid: 4b5c4fad3e8804d4394926a8ecad53bd, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1910724405645616, guid: 0aa3a965ea0b35146a17bbeefd4ef5bd, type: 3}
+  - id: 69
+    levelName: Labubu Kuromi
+    iconSprite: {fileID: 21300000, guid: 1ffe2edc2bfde814381514456cc0441c, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1875399241489964, guid: 68acacd0bac021841b46dbab4d18a99e, type: 3}
+  - id: 70
+    levelName: Labubu Kitty
+    iconSprite: {fileID: 21300000, guid: bb7140967f16e5f4d80b8c955508bcbf, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1109329098431483, guid: 0e5b71f1633e0e54e957c7b14ad96c0e, type: 3}
+  - id: 71
+    levelName: Pink Labubu
+    iconSprite: {fileID: 21300000, guid: 77439ef5110a4944ab483a53332bc129, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1956743566080873, guid: 9562452ff54f362439f1927d06037060, type: 3}
+  - id: 72
+    levelName: Labubu Bunny
+    iconSprite: {fileID: 21300000, guid: 5dbf942ddd4b1f142a28fcf9b8cc8204, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1453507057278160, guid: 715903ad6b618c34c9ebe283227be659, type: 3}
+  - id: 73
+    levelName: Panda Baby
+    iconSprite: {fileID: 21300000, guid: c0f3e669cedb99a4b969668cd579daa4, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1826438739797082, guid: 10bd65da7a0bad74db65348991c06b6b, type: 3}
+  - id: 74
+    levelName: Baby Chicken
+    iconSprite: {fileID: 21300000, guid: d22ca01b6f8cb214a8aa6aa4ec87238a, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1196774149306161, guid: 383399b563478cb449a539682f976e52, type: 3}
+  - id: 75
+    levelName: Dore Labubu
+    iconSprite: {fileID: 21300000, guid: a0a74cc10664bf740965b896541e31ac, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1349572710369148, guid: 05f10f74026ad31449165ea3808f9414, type: 3}
+  - id: 76
+    levelName: Pika Labubu
+    iconSprite: {fileID: 21300000, guid: 202d7ae3638f78247aebdd74371d6378, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1443266587823775, guid: ff256deda3b728b439e5bcba02227ff1, type: 3}
+  - id: 77
+    levelName: Noel Labubu
+    iconSprite: {fileID: 21300000, guid: 35250ddb591387e4d9c041ec57d5ba1c, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1904493817068357, guid: 414bacbfd3dbc5149acb88e1d7881cc7, type: 3}
+  - id: 78
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: f157f1b661836984caf6752c437646b5, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1116129503103326, guid: 8084b632226addb43a94d07a81781b22, type: 3}
+  - id: 79
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: e807a325f7cb4974685ddd18a94394e4, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1303917946169034, guid: 7c4e15031e75a8b41b749be2582ab99b, type: 3}
+  - id: 80
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: 22f4c7f92cb6f2d418b9d5b98cbf3c82, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1303917946169034, guid: 231395735b714ec42961d61ca7657383, type: 3}
+  - id: 81
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: e9d9ddc59fc009046b9f71d8318df35a, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1303917946169034, guid: 41e53196655fc8747ac80fdc04852961, type: 3}
+  - id: 82
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: 01a6ef0b7c9e37e4dba9baeb17c73c03, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1303917946169034, guid: 93ab9f607086dbc4f9421ba7523bf941, type: 3}
+  - id: 83
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: b1d9e1a4c632c1241bcf5e942817beab, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1303917946169034, guid: c0d24f3821237374b87a93a242d1b9fa, type: 3}
+  - id: 84
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: 2175c8ba4eb2a6243865a209a5cad206, type: 3}
+    chapter: 1
+    levelPrefab: {fileID: 1303917946169034, guid: 10d34ec80df80394fbf1f65ba86421bf, type: 3}
+  - id: 85
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: 117aab7e509dd51418e0d52ea027ae80, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1329853363902023, guid: abc10987416105c4e80884c3d0fe4b80, type: 3}
+  - id: 86
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: 777595b13600ee74d85625a9740c3ca7, type: 3}
+    chapter: 0
+    levelPrefab: {fileID: 1329853363902023, guid: 6244dfc8cb271e048b5a48c114e53909, type: 3}
+  - id: 87
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: 7d86d3b190f76274d8aa60c01a172ad9, type: 3}
+    chapter: 2
+    levelPrefab: {fileID: 1116129503103326, guid: e724b5ebbe46ec84eb76134e668bc59f, type: 3}
+  - id: 88
+    levelName: Baby Fox
+    iconSprite: {fileID: 21300000, guid: b9153497b1522154f89d522d58491fa4, type: 3}
+    chapter: 3
+    levelPrefab: {fileID: 1910724405645616, guid: 33c6facd326ab2c4393066131b9a659f, type: 3}

@@ -1,0 +1,4 @@
+Use UnityEditor.iOS_I2Loc.Xcode.dll from I2Localization Assets to reduce compile time
+
+For custom source code:
+https://github.com/superbderrick/UnityiOSLocalization

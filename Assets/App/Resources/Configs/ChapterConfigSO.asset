@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a461bc89b1e091140bb03c5144b63a42, type: 3}
+  m_Name: ChapterConfigSO
+  m_EditorClassIdentifier: 
+  _chapterInfors:
+  - chapter: 1
+    chapterName: Kpop
+    iconPrefab: {fileID: 4658571835001577278, guid: fd5d1e25c230f9f4c81d6510987ff154, type: 3}
+    buttonChapterSprite: {fileID: 21300000, guid: dd301e155a8d0f642a713edc89590248, type: 3}
+    titleBackgroundSprite: {fileID: 21300000, guid: 3466354146112994bb28737c5cb87b9c, type: 3}
+    levelItemData:
+      normalSprite: {fileID: 21300000, guid: 11ff21e7a0ec5ec48802d9e523f6df6c, type: 3}
+      titleBackgroundSprite: {fileID: 21300000, guid: 617dbe90a3fb8204db64d257fcdabf2f, type: 3}
+      textColorStatus: 2
+  - chapter: 0
+    chapterName: Brain Brot
+    iconPrefab: {fileID: 3908374010892621503, guid: 72eea0f3ba8c05543a661cba849fd42f, type: 3}
+    buttonChapterSprite: {fileID: 21300000, guid: 643d8f46b5aaec840bf95d3063ab3127, type: 3}
+    titleBackgroundSprite: {fileID: 21300000, guid: c3bf2ade81dd5f943a1b99d6afcee635, type: 3}
+    levelItemData:
+      normalSprite: {fileID: 21300000, guid: 49753f79e7d0e3048af82bc379d414e4, type: 3}
+      titleBackgroundSprite: {fileID: 21300000, guid: e3c904468f7cecd499789c947940acb8, type: 3}
+      textColorStatus: 3
+  - chapter: 3
+    chapterName: Valentine
+    iconPrefab: {fileID: 5050866426609763727, guid: 2959c89b04c6bf842b9eb3226ec5aa03, type: 3}
+    buttonChapterSprite: {fileID: 21300000, guid: cbc68b9e573e36048866c9dc312dee8e, type: 3}
+    titleBackgroundSprite: {fileID: 21300000, guid: 1cb9df24c7086fa4e9175bae119c6e5b, type: 3}
+    levelItemData:
+      normalSprite: {fileID: 21300000, guid: 10b188807795a3b40aa0b6917fa5a34f, type: 3}
+      titleBackgroundSprite: {fileID: 21300000, guid: a94ac095dcb4c644d86c31d557a1ecdc, type: 3}
+      textColorStatus: 1
+  - chapter: 2
+    chapterName: Lababu
+    iconPrefab: {fileID: 3772990343812201927, guid: e134bd49688a0ec4a82d6be8df67a079, type: 3}
+    buttonChapterSprite: {fileID: 21300000, guid: 87b4a07b784c24d49a26f87bb966ed9e, type: 3}
+    titleBackgroundSprite: {fileID: 21300000, guid: 08b23f1aeb8a6f44fb05c1c57db3c9f6, type: 3}
+    levelItemData:
+      normalSprite: {fileID: 21300000, guid: 84c0c37b7fdbf8d4bad174f28244d980, type: 3}
+      titleBackgroundSprite: {fileID: 21300000, guid: 8b2b0bf7cf16b7e4ba0014c87b6536a9, type: 3}
+      textColorStatus: 0

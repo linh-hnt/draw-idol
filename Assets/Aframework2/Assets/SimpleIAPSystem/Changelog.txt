@@ -1,0 +1,101 @@
+**************************************
+CHANGELOG
+**************************************
+v5.0.5
+- added listener for pending (Google Play) and deferred (iOS) purchases, automatically showing a
+  message after purchase that a transaction is pending and requires action by the user
+- added HasPendingPurchases method to IAPManager that can be called at any time after billing
+  initialization to check for any pending/deferred transactions to inform the user e.g. when 
+  entering the shop. Only supported on Google Play (Unity IAP limitation)
+- fixed Google Play pending purchases going through after relaunching the app
+
+v5.0.4
+- changed CompletePurchase method to accept disabling the purchaseSucceededEvent. This is used
+  on validation of previous purchases to avoid showing a success popup for them multiple times
+- changed local receipt validation in ReceiptValidatorClient to be commented out by default
+- fixed purchase succeeded workflow on Oculus and Steam when passing in product without price
+
+v5.0.3
+- added option to Project Settings to convert all Unity UI references in code to TextMeshPro.
+  Also extendable with other UI solutions. Note that using this breaks the example scenes
+- added Google Play firing initializeFailedEvent when user removed their linked Google account
+- changed Receipt Validation on app launch to not fire the purchaseSucceededEvent. If the
+  IAPManager and shop is your first scene, this prevents showing an incorrect purchase window
+- changed initializeFailedEvent, providing the string error reason for failed initialization
+- Unity IAP compatibility updated to 4.0.0
+- Xsolla SDK compatibility updated to 0.6.4.5
+- fixed CurrencyContainer not getting values at startup with IAPManager in same scene
+- fixed IAPSettingsExporter throwing exception on empty strings
+- fixed ReceiptValidatorClient order call issue with initializeEvent in Unity Editor
+- fixed ReceiptValidatorClient resetting purchased products in Unity Editor
+
+v5.0.2
+- fixed product deletion sometimes picking the wrong reference for deletion
+- fixed product sorting order not being remembered in ReorderableList
+- fixed changes on IAPSettings ScriptableObject not persisting without project save
+- fixed XsollaStore not displaying discount flag correcly when promotions are active
+
+v5.0.1
+- fixed single item selections not staying consistent in the sample scenes. This is due to a
+  change in Unity's ToggleGroup component, make sure to keep "Allow Switch Off" enabled
+- fixed OculusStore and SteamStore compile errors making use of deprecated IAP product classes
+- fixed PayPalStore warnings mentioning deprecated use of Unity WebRequest properties
+- Xsolla SDK compatibility updated to 0.6.4.2
+
+v5.0 (Simple IAP System 2)
+THIS VERSION IS NOT BACKWARDS COMPATIBLE
+- added native PayPal billing, primarily for selling physical products. This means you can
+  now sell native in-app purchases e.g. on mobile platforms and physical products in parallel
+- added Xsolla payments. The integration with Xsolla allows support for hundreds of local
+  payment gateways, including user inventory, cloud save and promotional sales. This makes
+  it a perfect opportunity on alternative platforms that do not force you into using their native
+  in-app solutions (e.g. standalone, WebGL, and mobile platforms outside Google/Apple)
+- added support for Unity IAP 3.x
+- added currency option, allows for maximum amount of earned currency balance
+- added pricing option, purchasing a product can now cost other virtual products
+- added reward option, purchasing a product can now grant other virtual products
+- added override option to disable automatic shop item instantiation on a specific store
+- added override option for billing provider as used with PayPal, in case more get added
+- added IAPContainer script, allowing for automatic product instantiation of a category
+- added Currency-, IAPContainer inspector editor for easy reference of currency/categories
+- added display of user-owned consumable product amount to ShopItem prefabs
+- added display of remaining subscription durations to ShopItem prefabs
+- added display of a "On Sale" banner in case of discounts/promotions to ShopItem prefabs
+- added display of bundled contents preview in case of one product granting multiple rewards
+- added methods and callbacks for manually consuming products at any time during runtime
+- added local receipt validation and subscribed duration support for subscriptions,
+  mostly for non-renewable subscriptions since Unity's receipt could get lost on auto-renews
+- changed consumable product DBManager storage key from "Player" to "Content". Consumables
+  bought and stored with the old format will not be found by the DBManager
+- changed "Validation Only" integrated in PlayfabManager. The platform define is gone.
+- changed ShopManager, it is no longer responsible for handling product shop instantiation
+- changed requirements, there can now be multiple entries to unlock instead of only one
+- restructured IAPManager to be event-based, added several new events
+- restructured classes contained in classes into their own, separate scripts
+- removed PlayFab store related code in IAPManager, reimplemented using events
+- removed IAP Settings editor window, reimplemented under Project Settings
+- removed support for Samsung/Oculus Gear VR following Unity's deprecation last year
+- removed Vertical, Horizontal and VerticalMenu, HorizontalMenu example scenes
+- removed public support for server-side validation, as there is a new service planned for this
+  later this year. If you've used it before, see the updated C# file on the support forum
+- renamed IAPEditorExporter class to IAPSettingsExporter, updated for this version
+- renamed VerticalTabs, HorizontalTabs example scenes to Vertical2D, Horizontal2D
+- renamed IAPItem shop representation class to ShopItem2D
+- renamed UpdateFunds currency update class to CurrencyContainer
+- renamed ShopManager class to UIShopFeedback
+- minimum required Unity version: 2019.4.0
+
+Upgrade notes (from Simple IAP System 1)
+- Export your products in the IAP Settings Editor before upgrading. Import your configuration
+  under Edit > Project Settings > Simple IAP System > Tools. Check product rewards and costs.
+- Since the IAPItem class was renamed, it is likely that the UI elements lost their references.
+  Therefore, your shop item prefabs must be set up with the new ShopItem2D component again.
+- Currency display in the scene must use the CurrencyContainer script instead of UpdateFunds.
+- If you have used automatic shop item instantiation, check the IAPContainer components in your
+  shop scene. You will have to select the category to instantiate items from in the inspector.
+- ShopManager class was renamed to UIShopFeedback. If you have used that in your shop scene,
+  check its references to the message/confirm window and message label.
+- Due to the changed storage format on consumables (Player -> Content key), consider adding a
+  data take-over scenario for consumable products, in case you previously implemented any which
+  add more than 1 to the owned amount (Usage > 1). Skipping this would result in lost user data.
+- Use the IAPManager.RestoreTransactions method instead of "purchasing" a "restore" product

@@ -1,0 +1,72 @@
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request))
+})
+
+/* PUT SAMPLE */
+//{"method":"setCurrency","user":"7a720983-9d70-46b2-9cd2-1490a322b662","items":[{"sku":"coins","quantity":1000}]}
+async function handleRequest(request)
+{
+  var bodyJson = null;
+  try { bodyJson = await request.json() } catch{};
+
+  if(bodyJson == null)
+  {
+    return new Response("Invalid Request Body.", {status: 200});
+  }
+
+  response = await setItems(bodyJson);
+  return new Response(response, {status: 200});
+}
+
+async function setItems(bodyJson)
+{
+  const method = bodyJson["method"];
+  if(method === "addCurrency" && !validate(bodyJson["items"]))
+  {
+    return "Validation failed.";
+  }
+
+  var url = `https://store.xsolla.com/api/v2/project/${PROJECT_ID}/inventory/`;
+  if(method === "setCurrency") url += "set";
+  else url += "reward";
+
+  var data = JSON.stringify([
+  {
+    "user": {
+      "id": bodyJson["user"]
+    },
+    "comment": method,
+    "items": bodyJson["items"]
+  }]);
+
+  const postData =
+  {
+    method: 'POST',
+    headers: new Headers({
+      'Content-Type': 'application/json',
+      Authorization: `Basic ${AUTH_KEY}`
+    }),
+    body: data
+  }
+
+  const response = await fetch(url, postData);
+  const responseJson = await response.json();
+
+  if(responseJson == null || responseJson["count"] == null || responseJson["count"] == 0)
+  {
+    return JSON.stringify(responseJson);
+  }
+  else
+  {
+    return "OK";
+  }
+}
+
+function validate(items)
+{
+    //do your custom validation logic when adding currency here!
+    //for... if...
+    //return false;
+
+    return true;
+}
